@@ -95,10 +95,13 @@
 }
 .cabecera-nav li a:hover {
     font-weight: 700;
+    transition: transform .4s;   
+    transform: scale(0.9)
 }
 a{
     text-decoration: none;
     color: black;
+    display: inline-block;
 }
 .foto-apertura {
     width: 100vw;
@@ -146,12 +149,11 @@ a{
     position: relative;
     animation-name: movimiento;
     animation-duration: 8s;
+    animation-iteration-count: 3;
 }
 @keyframes movimiento{
     0%   {top:0px;}
-    25%  {top:-100px;}
-    50%  {top:-40px;}
-    75%  {top:-100px;}
+    50%  {top:-480px;}
     100% {top:0px;}
 }
 .cuerpo__barra1{
