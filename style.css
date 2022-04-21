@@ -106,19 +106,35 @@ a{
 }
 .comboFoto1 {
     grid-area: a;
-    width: 30vw;  
+    width: 30vw; 
+    transition: transform .4s;   
+}
+.comboFoto1:hover{
+    transform: scale(0.9);
 }
 .comboFoto2 {
     grid-area: b;
-    width: 30vw;  
+    width: 30vw; 
+    transition: transform .4s;    
+}
+.comboFoto2:hover{
+    transform: scale(0.9);
 }
 .comboFoto3 {
     grid-area: c;
     width: 30vw; 
+    transition: transform .4s; 
+}
+.comboFoto3:hover{
+    transform: scale(0.9);
 }
 .comboFoto4 {
     grid-area: d;
-    width: 30vw;  
+    width: 30vw;
+    transition: transform .4s;   
+}
+.comboFoto4:hover{
+    transform: scale(0.9);
 }
 .cuerpo__barras{
     display: flex;
