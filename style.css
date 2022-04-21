@@ -91,9 +91,9 @@
     font-weight: 400;
     text-transform: uppercase;
     margin: 20px;
-    letter-spacing: 5px;
+    letter-spacing: 5px; 
 }
-.cabecera-nav li a:hover{
+.cabecera-nav li a:hover {
     font-weight: 700;
 }
 a{
@@ -143,6 +143,16 @@ a{
     margin-top: -80px;
     margin-left: 0;
     margin-right: 0;
+    position: relative;
+    animation-name: movimiento;
+    animation-duration: 8s;
+}
+@keyframes movimiento{
+    0%   {top:0px;}
+    25%  {top:-100px;}
+    50%  {top:-40px;}
+    75%  {top:-100px;}
+    100% {top:0px;}
 }
 .cuerpo__barra1{
     background-color: #f0e3a5e5;
